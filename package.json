@@ -9,7 +9,7 @@
   "scripts": {
     "clean": "lerna clean --yes && rimraf node_modules",
     "clean:build": "lerna exec -- rimraf \"{.next,dist,build}\"",
-    "dev": "lerna run --parallel dev",
+    "dev": "lerna run --parallel dev"
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
